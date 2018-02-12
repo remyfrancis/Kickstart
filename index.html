@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap Template</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom Font -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link href="css/style.css" rel="stylesheet">
+        <!-- Template styles -->
+        <style rel="stylesheet">
+            /* TEMPLATE STYLES */
+    
+            /* Necessary for full page carousel*/
+    
+            html,
+            body,
+            .view {
+                height: 100%;
+            }
+    
+            /* Navigation*/
+    
+            .navbar {
+                background-color: transparent;
+            }
+    
+            .scrolling-navbar {
+                -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+                -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+                transition: background .5s ease-in-out, padding .5s ease-in-out;
+            }
+    
+            .top-nav-collapse {
+                background-color: #1C2331;
+            }
+    
+            footer.page-footer {
+                background-color: #1C2331;
+                margin-top: 0;
+            }
+    
+            @media only screen and (max-width: 767px) {
+                .navbar {
+                    background-color: #1C2331;
+                }
+                .display-3 {
+                    font-size: 2rem;
+                    margin-top: 6rem;
+                }
+                h3 {
+                    font-size: 1rem;
+                }
+            }
+    
+            @media only screen and (max-width: 667px) {
+                .display-3 {
+                    font-size: 3rem;
+                }
+            }
+    
+            /* Carousel*/
+            .carousel,
+            .carousel-item,
+            .active {
+                height: 100%;
+            }
+    
+            .carousel-inner {
+                height: 100%;
+            }
+    
+            /*Caption*/
+    
+            .flex-center {
+                color: #fff;
+            }
+    
+            @media (min-width: 776px) {
+                .carousel .view ul li {
+                    display: inline;
+                }
+                .carousel .view .full-bg-img ul li .flex-item {
+                    margin-bottom: 1.5rem;
+                }
+            }
+    
+            .navbar .btn-group .dropdown-menu a:hover {
+                color: #000 !important;
+            }
+    
+            .navbar .btn-group .dropdown-menu a:active {
+                color: #fff !important;
+            }
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#"><strong>Kick Start Riding &amp; Driving School</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+    
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-3" class="carousel slide carousel-fade white-text" data-ride="carousel" data-interval="false">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-3" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-3" data-slide-to="1"></li>
+                <li data-target="#carousel-example-3" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+    
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+    
+                <!-- First slide -->
+                <div class="carousel-item active view hm-black-light" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;">
+    
+                    <!-- Caption -->
+                    <div class="full-bg-img flex-center white-text">
+                        <ul class="animated fadeInUp col-md-12">
+                            <li>
+                                <h1 class="display-3 flex-item font-bold">Material Design for Bootstrap 4</h1>
+                                <li>
+                                    <h3 class="flex-item">The most powerful and free UI KIT for Bootstrap</h3>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-purple btn-rounded flex-item" rel="nofollow">Sign up!</a>
+    
+                                    <a target="_blank" href="https://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-outline-purple btn-rounded flex-item"
+                                        rel="nofollow">Learn more</a>
+                                </li>
+                        </ul>
+                    </div>
+                    <!-- /.Caption -->
+    
+                </div>
+                <!-- /.First slide -->
+    
+                <!-- Second slide -->
+                <div class="carousel-item view hm-black-light" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;">
+    
+                    <!-- Caption -->
+                    <div class="full-bg-img flex-center white-text">
+                        <ul class="animated fadeInUp col-md-12">
+                            <li>
+                                <h1 class="display-4 font-bold">Lots of tutorials at your disposal</h1>
+                            </li>
+                            <li>
+                                <h3 class="my-4">And all of them are FREE!</h3>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-primary btn-lg" rel="nofollow">Start learning</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.Caption -->
+    
+                </div>
+                <!-- /.Second slide -->
+    
+                <!-- Third slide -->
+                <div class="carousel-item view hm-black-light" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/79.jpg'); background-repeat: no-repeat; background-size: cover;">
+    
+                    <!-- Caption -->
+                    <div class="full-bg-img flex-center white-text">
+                        <ul class="animated fadeInUp col-md-12">
+                            <li>
+                                <h1 class="display-4 font-bold">Visit our support forum</h1>
+                            </li>
+                            <li>
+                                <h3 class="my-4">Our community can help you with any question</h3>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://mdbootstrap.com/forums/forum/support/" class="btn btn-default btn-lg" rel="nofollow">Support forum</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.Caption -->
+    
+                </div>
+                <!-- /.Third slide -->
+    
+            </div>
+            <!--/.Slides-->
+    
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-3" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-3" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+
+    
+    <!--Main Layout-->
+    <main>
+    
+        <div class="container">
+            
+            <!--Section: Features v.4-->
+            <section class="section feature-box wow fadeIn" data-wow-delay="0.3s">
+
+                <!--Section heading-->
+                <h1 class="section-heading  h1 pt-4">Why is it so great?</h1>
+                <!--Section description-->
+                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+
+                <!--Grid row-->
+                <div class="row features-small">
+
+                    <!--Grid column-->
+                    <div class="col-md-4">
+
+                        <!--Grid row-->
+                        <div class="row mb-2">
+                            <div class="col-2">
+                                <i class="fa fa-flag-checkered indigo-text"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="feature-title">International</h5>
+                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.</p>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row mb-2">
+                            <div class="col-2">
+                                <i class="fa fa-flask blue-text"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="feature-title">Experimental</h5>
+                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.</p>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row mb-2">
+                            <div class="col-2">
+                                <i class="fa fa-glass cyan-text"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="feature-title">Relaxing</h5>
+                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.</p>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-2 center-on-small-only flex-center">
+                        <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone-portfolio1.png" alt="" class="z-depth-0">
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4">
+
+                        <!--Grid row-->
+                        <div class="row mb-2">
+                            <div class="col-2">
+                                <i class="fa fa-heart deep-purple-text"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="feature-title">Beloved</h5>
+                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.</p>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row mb-2">
+                            <div class="col-2">
+                                <i class="fa fa-flash purple-text"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="feature-title">Rapid</h5>
+                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.</p>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row mb-2">
+                            <div class="col-2">
+                                <i class="fa fa-magic pink-text"></i>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="feature-title">Magical</h5>
+                                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.</p>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--/Section: Features v.4-->
+             
+            <hr class="mb-5">
+            
+            <!--Section: Testimonials v.3-->
+            <section class="section team-section text-center pb-3 wow fadeIn" data-wow-delay="0.3s">
+
+                <!--Section heading-->
+                <h1 class="section-heading h1 pt-4">Testimonials</h1>
+                <!--Section description-->
+                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+
+                <!--Grid row-->
+                <div class="row text-center">
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-r">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                            <div class="avatar">
+                                <img src="testimonial1.jpg" class="rounded-circle z-depth-1 img-fluid">
+                            </div>
+
+                            <!--Content-->
+                            <h4 class="mb-3">Sekani Bart</h4>
+                            <h6 class="mb-3 font-bold grey-text">Student</h6>
+                            <p><i class="fa fa-quote-left"></i> If you want to learn to drive in any reasonable amount of time, Kick Start Riding and Driving School is the place to be. Stacy is a great instructor, and has a great team. All your paper work is done for you and hassle free. Professional driving school with great customer service and communication.
+                                Students with little to no experience driving, I would certainly recommend Kick Start, best driving school hands down!!</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-r">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                            <div class="avatar">
+                                <img src="testimonial2.jpg" class="rounded-circle z-depth-1 img-fluid">
+                            </div>
+
+                            <!--Content-->
+                            <h4 class="mb-3">Emeka Le Riche</h4>
+                            <h6 class="mb-3 font-bold grey-text">Sandals</h6>
+                            <p><i class="fa fa-quote-left"></i> Stacy works with you and your schedule and is very patient when dealing with new drivers/riders. Great bang for your buck...highly recommended.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-r">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                            <div class="avatar">
+                                <img src="testimonial3.jpg" class="rounded-circle z-depth-1 img-fluid">
+                            </div>
+                            <!--Content-->
+                            <h4 class="mb-3">Naja Simeon</h4>
+                            <h6 class="mb-3 font-bold grey-text">Creative Director</h6>
+                            <p><i class="fa fa-quote-left"></i> To be honest, Stacy and KickStart Driving/Riding school was like my older sister. They covered everything for me from inspection, to insurance to defense driving to getting my new drivers license in my hand without ever standing in line. And if you have a busy schedule like mine, KickStart is the place to go!!! 
+                                For all your riding and driving needs, call KickStart. Professional, friendly and the best customer service out there!!!!!</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Testimonials v.3-->
+            
+            <hr class="mb-5">
+            
+            <!--Section: Pricing v.2-->
+        <section class="section">
+
+            <!--Section heading-->
+            <h1 class="section-heading h1">Specials</h1>
+            <!--Section description-->
+            <p class="section-description">With the plethora of devices that we use to access the web that currently exist today, predicting how your audience will reach your content is no easy feat. From tablets, to smartphones, to laptops to desktops, my sites deliver great and flexible user experiences.
+                    All websites and applications I design are optimized to automatically adjust to any screen size. Your content will adapt offering the best reading experience. </p>
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-r">
+
+                    <!-- Card -->
+                    <div class="card card-image" style="background-image: url('../img/business2.jpg');">
+
+                        <!--Pricing card-->
+                        <div class="text-white text-center pricing-card d-flex align-items-center rgba-stylish-strong py-3 px-3">
+
+                            <!--Content-->
+                            <div class="card-body">
+                                <h5>Driving Package</h5>
+                                <!--Price-->
+                                <div class="price pt-0">
+                                    <h1>1,850</h1>
+                                </div>
+                                <!--Price-->
+                                <ul class="striped">
+                                    <li>
+                                        <p>Registration</p>
+                                    </li>
+                                    <li>
+                                        <p>One Permit</p>
+                                    </li>
+                                    <li>
+                                        <p>Theory Classes</p>
+                                    </li>
+                                    <li>
+                                        <p>One Theory Exam</p>
+                                    </li>
+                                    <li>
+                                        <p>One Practical Exam</p>
+                                    </li>
+                                    <li>
+                                        <p>All Driving Classes(within 3 months)</p>
+                                    </li>
+                                </ul>
+                                <a class="btn btn-outline-white"> Request A Proposal</a>
+                            </div>
+
+                        </div>
+                        <!--Pricing card-->
+                    </div>
+                    
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-r">
+
+                    <!-- Card -->
+                    <div class="card card-image" style="background-image: url('../img/ecommerce.jpg');">
+
+                        <!--Pricing card-->
+                        <div class="text-white text-center pricing-card d-flex align-items-center rgba-stylish-strong py-3 px-3">
+
+                            <!--Content-->
+                            <div class="card-body">
+                                <h5>Ecommerce Websites</h5>
+                                <!--Price-->
+                                <div class="price pt-0">
+                                    <h1>5,000</h1>
+                                </div>
+                                <!--Price-->
+                                <ul class="striped">
+                                    <li>
+                                        <p>Up to<strong> 1000</strong> Products</p>
+                                    </li>
+                                    <li>
+                                        <p>Payment Gateway Integration</p>
+                                    </li>
+                                    <li>
+                                        <p>Promotion &amp; Discount Tools</p>
+                                    </li>
+                                    <li>
+                                        <p>Sales Tax &amp; Shipping Calculation</p>
+                                    </li>
+                                    <li>
+                                        <p>Content Management</p>
+                                    </li>
+                                    <li>
+                                        <p>Email Marketing Integration</p>
+                                    </li>
+                                </ul>
+                                <a class="btn btn-outline-white"> Request A Proposal</a>
+                            </div>
+
+                        </div>
+                        <!--Pricing card-->
+                    </div>
+                </div>
+                <!--Grid column-->
+
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-r">
+
+                    <!-- Card -->
+                    <div class="card card-image" style="background-image: url('../img/app.jpg');">
+
+                        <!--Pricing card-->
+                        <div class="text-white text-center pricing-card d-flex align-items-center rgba-stylish-strong py-3 px-3">
+
+                            <!--Content-->
+                            <div class="card-body">
+                                <h5>Progressive Web Apps &amp; Hybrid Mobile Apps</h5>
+                                <!--Price-->
+                                <div class="price pt-0">
+                                    <h1>6,000</h1>
+                                </div>
+                                <!--Price-->
+                                <ul class="striped">
+                                    <li>
+                                        <p>Accessible On Any Device*</p>
+                                    </li>
+                                    <li>
+                                        <p>Offline Support*</p>
+                                    </li>
+                                    <li>
+                                        <p>Social Integration</p>
+                                    </li>
+                                    <li>
+                                        <p>Push Notifications</p>
+                                    </li>
+                                    <li>
+                                        <p>Geolocation</p>
+                                    </li>
+                                    <li>
+                                        <p>Payments</p>
+                                    </li>
+                                </ul>
+                                <a class="btn btn-outline-white">  Request A Proposal</a>
+                            </div>
+
+                        </div>
+                        <!--Pricing card-->
+                    </div>
+                    *Feature available for Progressive Web Apps only
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+        </section>
+        <!--Section: Pricing v.2-->
+            
+            <hr class="mb-5">
+
+            <!--Section: Contact v.2-->
+            <section class="section pb-5 wow fadeIn" data-wow-delay="0.3s">
+
+                <!--Section heading-->
+                <h2 class="section-heading h1 pt-4">Contact us</h2>
+                <!--Section description-->
+                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-8 col-xl-9">
+                        <form>
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form">
+                                        <div class="md-form">
+                                            <input type="text" id="contact-name" class="form-control">
+                                            <label for="contact-name" class="">Your name</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form">
+                                        <div class="md-form">
+                                            <input type="text" id="contact-email" class="form-control">
+                                            <label for="contact-email" class="">Your email</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <input type="text" id="contact-Subject" class="form-control">
+                                        <label for="contact-Subject" class="">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-12">
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="contact-message" class="md-textarea"></textarea>
+                                        <label for="contact-message">Your message</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                        </form>
+
+                        <div class="center-on-small-only">
+                            <a class="btn btn-light-blue btn-rounded">Send</a>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 col-xl-3">
+                        <ul class="contact-icons">
+                            <li><i class="fa fa-map-marker fa-2x"></i>
+                                <p>San Francisco, CA 94126, USA</p>
+                            </li>
+
+                            <li><i class="fa fa-phone fa-2x"></i>
+                                <p>+1 758 489 3899</p>
+                            </li>
+
+                            <li><i class="fa fa-envelope fa-2x"></i>
+                                <p>ksridingschool@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+
+            </section> 
+            <!--Section: Contact v.2-->
+            
+        </div>
+    
+    </main>
+    <!--Main Layout-->
+    
+   
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only mt-5">
+
+        <!--Footer Links-->
+        <div class="container">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-3">
+                    <h5 class="title">Footer Content </h5>
+                    <p>Here you can use rows and columns here to organize your footer content.</p>
+                </div>
+                <!--/.First column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Second column-->
+                <div class="col-md-2 ml-auto">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Third column-->
+                <div class="col-md-2 ml-auto">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Fourth column-->
+                <div class="col-md-2 ml-auto">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <!--Grid row-->
+            <div class="row mb-3">
+
+                <!--First column-->
+                <div class="col-md-12">
+
+                    <ul class="list-unstyled d-flex justify-content-center mb-0 py-4">
+                        <li><a class="icons-sm fb-ic"><i class="fa fa-facebook white-text fa-lg"> </i></a></li>
+                        <li><a class="icons-sm tw-ic"><i class="fa fa-twitter white-text fa-lg"> </i></a></li>
+                        <li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus white-text fa-lg"> </i></a></li>
+                        <li><a class="icons-sm li-ic"><i class="fa fa-linkedin white-text fa-lg"> </i></a></li>
+                        <li><a class="icons-sm ins-ic"><i class="fa fa-instagram white-text fa-lg"> </i></a></li>
+                        <li><a class="icons-sm pin-ic"><i class="fa fa-pinterest white-text fa-lg"> </i></a></li>
+                    </ul>
+
+                </div>
+                <!--/First column-->
+            </div>
+            <!--/Grid row-->
+        </div>
+        <!--/.Footer Links-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2018 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+                
+    
+    <!--  SCRIPTS  -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
